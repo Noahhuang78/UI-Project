@@ -1,0 +1,23 @@
+.hub-container{
+    display: flex
+}
+
+.grid-container{
+    flex-grow: 1;
+}
+
+
+.right-side-bar{
+    height: 100vh;
+    width: auto;
+    padding: 20px;
+    border: solid rgba(128, 128, 128, 0.2);
+    border-width: 2px;
+}
+.right-side-bar ul{
+    list-style-type: none;
+}
+
+.right-side-bar ul a{
+    width: 100%
+}
