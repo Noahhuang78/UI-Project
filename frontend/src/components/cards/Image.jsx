@@ -1,5 +1,5 @@
-export default function Image({imgSrc}){
-    return <img src={imgSrc}></img>
+export default function Image({imgSrc, category}){
+    return <img className={`${category=="Internship" ? "internship-" :""}img`}src={`${imgSrc}?w=400&h=300&fit=crop&auto=format`}></img>
 }
 
 

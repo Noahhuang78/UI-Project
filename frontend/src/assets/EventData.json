@@ -116,19 +116,7 @@
     "imgSrc": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4",
     "tags": ["art", "photography", "exhibition", "creativity"]
   },
-  {
-    "id": "evt_a7k9m2n4p6",
-    "category": "Event",
-    "title": "Campus Hackathon 2025",
-    "organisation": "Innovation Society",
-    "description": "A 24-hour hackathon where student teams collaborate intensively to build innovative solutions, solve real-world problems, and showcase their creativity, coding skills, and teamwork to a panel of judges.",
-    "date": "2025-03-15",
-    "time": "09:00 AM - 09:00 AM (next day)",
-    "location": "Campus Auditorium",
-    "spots": 100,
-    "imgSrc": "https://images.unsplash.com/photo-1551836022-d5d88e9218df",
-    "tags": ["tech", "innovation", "competition", "coding", "teamwork"]
-  },
+
   {
     "id": "evt_b3x7q8r1t5",
     "category": "Event",

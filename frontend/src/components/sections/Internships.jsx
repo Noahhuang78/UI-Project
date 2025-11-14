@@ -1,7 +1,7 @@
 import { useState } from "react";
-import EventCard from "../cards/EventCard";
+import InternshipCard from "../cards/InternshipCard";
 
-export default function Events({ data, category, tags }) {
+export default function Internships({ data, category, tags }) {
   const [selectedTag, setSelectedTag] = useState("");
   const [search, setSearch] = useState("");
 
@@ -11,7 +11,7 @@ export default function Events({ data, category, tags }) {
 
     return matchesSearch && matchesTag;
   });
-
+  
   tags.sort();
   return (
     <div className="events-container">
@@ -34,19 +34,19 @@ export default function Events({ data, category, tags }) {
       </div>
       <div className="events-wrapper">
         {filteredData.map((event) => (
-          <EventCard
+          <InternshipCard
             key={event.id}
             id = {event.id}
             category={event.category}
             organisation={event.organisation}
-            description={event.description}
+            description={event.shortDescription}
             title={event.title}
             date={event.date}
             time={event.time}
+            salary={event.salary}
             location={event.location}
             spots={event.spots}
             imgSrc={event.imgSrc}
-            tags={event.tags}
           />
         ))}
       </div>

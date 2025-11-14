@@ -9,11 +9,10 @@ import { useState } from "react";
 import ClubData from "./assets/ClubData.json"
 import EventData from "./assets/EventData.json"
 import InternshipData from "./assets/EventData.json"
-import InterestTags from "./assets/InterestTags.json"
-
+import InternshipDetails from "./components/views/InternshipDetails";
+import EventDetails from "./components/views/EventDetails"
 
 export default function App() {
-  const tags = InterestTags
   
   const [joinedClubs, setjoinedClujbs] = useState([])
   const [registeredEvents, setRegisteredEvents] = useState([])
@@ -24,10 +23,12 @@ export default function App() {
     <div className="hub-container">
       <RightSideBar/>
       <Routes>
-        <Route path="/Home" element={<HomePage />} />
-        <Route path="/EventPage" element={<EventPage data={EventData} />} />
-        <Route path="/InternshipPage" element={<InternshipPage />} />
-        <Route path="/ClubPage" element={<ClubPage />} />
+        <Route path='/events/:id' element={<EventDetails/>}></Route>
+        <Route path='/internships/:id' element={<InternshipDetails/>}></Route>
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/events" element={<EventPage data={EventData} />} />
+        <Route path="/internships" element={<InternshipPage />} />
+        <Route path="/clubs" element={<ClubPage />} />
       </Routes>
     </div>
   

@@ -27,13 +27,36 @@
     flex-direction: column;
     margin-inline: 50px;
 }
+
+.events-container h1{
+    margin-block: 20px;
+}
+
+
+.events-container .filter{
+    display: flex;
+    gap: 24px;
+}
+
+.events-container input{
+    padding: 12px;
+    height: 40px;
+    width: 420px;
+    font-size: 20px;
+}
+
+.events-container select{
+    width: 240px;
+}
+
 .events-wrapper {
     /* flex-grow not necessary again in wrapper since already in container */
     flex-grow: 1;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     justify-content: center; /* centers rows if not filling full width */
     gap: 24px;
+    margin-block: 30px;
     }
 
 .event-card{ 
@@ -58,40 +81,83 @@
     
 }
 
-.event-card img {
+.event-card:hover h4{
+    color: orangered
+}
+.event-card ul{
+    color: rgb(255, 255, 255, 0.95);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    width: 100%;
+    position: absolute;
+    list-style-type: none;
+    gap: 8px;
+    margin-top: 8px;
+    
+}
+.event-card li{
+    background: linear-gradient(to right, rgba(91, 101, 116, 0.6), rgb(141, 154, 172, 0.6));
+    border-radius: 12px;
+    text-align: center;
+    padding-block: 2px;
+    padding-inline: 6px;
+    width: auto;
+}
+
+.event-card .img {
     width: 100%;
     height: 50%;
     object-fit: cover;
     border-radius: 12px 12px 0 0;
 }
+
+.event-card .internship-img{
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
 .event-card .date-time{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14px;
-    text-shadow:
-    -1px -1px 0 black,
-     1px -1px 0 black,
-    -1px  1px 0 black,
-     1px  1px 0 black;
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+     text-shadow:
+    -1px -1px 0 rgb(59, 59, 59, 0.8),
+     1px -1px 0 rgb(59, 59, 59, 0.8),
+    -1px  1px 0 rgb(59, 59, 59, 0.8),
+     1px  1px 0 rgb(59, 59, 59, 0.8); 
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 8px;
     margin-inline: 10px;
     position: absolute;
-    top: 140px;
+    top: 130px;
 }
+
+.event-card .internship-date-time{
+    color: orangered;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
 .event-card .date{
     display: flex;
     align-items: flex-end;
     gap: 5px;
-    color: white;
 }
 
 .event-card .time{
     display: flex;
     align-items: flex-end;
     gap: 5px;
-    color: white;
+  
 }
 
 .event-card .card-details-wrapper{
@@ -101,9 +167,15 @@
     gap: 8px;
     padding: 16px;
 }
+.event-card .card-organisation{
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(100, 116, 139);
+}
 
 .event-card .card-description{
-    font-family: cursive;
+    color: rgb(71, 85, 105);
+    font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
     font-size: 14px;
 }
 
@@ -114,10 +186,32 @@
     font-size: 13px;
     font-weight: 500;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 5px;
     padding-inline: 16px;
     bottom: 20px;
 }
+
+.event-card .internship-card-footer{
+    color: orangered;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-inline: 16px;
+    bottom: 20px;
+}
+
+.event-card .loc-spots{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 .event-card .card-footer .card-location{
     display: flex;
@@ -132,6 +226,21 @@
     gap: 5px;
     color:rgb(71, 85, 105);
 }
+
+.event-card  .internship-card-location{
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    color:orangered;
+}
+
+.event-card .internship-card-spots{
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    color:orangered;
+}
+
 
 button{
     display: flex;
@@ -158,6 +267,7 @@ button:hover{
 .material-symbols-outlined{
     font-size: 18px;
 }
+
 
 .dashboard{
 
