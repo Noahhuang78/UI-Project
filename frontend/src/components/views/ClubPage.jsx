@@ -1,4 +1,4 @@
-export default function ClubPage(){
+export default function ClubPage({data}){
     return(
     <div className="club-container">
         

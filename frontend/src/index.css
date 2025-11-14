@@ -1,5 +1,6 @@
 .hub-container{
-    display: flex
+    display: flex;
+    position: relative
 }
 
 .grid-container{
@@ -9,7 +10,7 @@
 
 .right-side-bar{
     height: 100vh;
-    width: auto;
+    width: 240px;
     padding: 20px;
     border: solid rgba(128, 128, 128, 0.2);
     border-width: 2px;

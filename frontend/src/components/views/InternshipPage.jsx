@@ -1,4 +1,4 @@
-export default function InternshipPage(){
+export default function InternshipPage({data}){
     return
 }
 

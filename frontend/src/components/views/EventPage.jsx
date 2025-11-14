@@ -1,9 +1,9 @@
-import UpcomingEvents from "../sections/UpcomingEvents";
+import Events from "../sections/Events";
 
-export default function EventPage() {
+export default function EventPage({data}) {
   return (
     <div className="grid-container">
-      <UpcomingEvents />
+      <Events data={data}/>
     </div>
   );
 }
