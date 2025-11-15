@@ -39,7 +39,7 @@ app.post("/api/chat", async (req, res) => {
   
     try {
       // talk to local Ollama model
-      const ollamaRes = await fetch("4http://localhost:11434/api/generate", {
+      const ollamaRes = await fetch("http://localhost:11434/api/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

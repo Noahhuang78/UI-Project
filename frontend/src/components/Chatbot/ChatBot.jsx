@@ -16,15 +16,15 @@ export default function ChatBot() {
   async function handleSend(e) {
     e.preventDefault();
     if (!input.trim()) return;
-  
+
     const userMsg = { from: "user", text: input };
-  
-    setMessages(prev => [...prev, userMsg, { from: "bot", text: "Thinking..." }]);
+
+    setMessages(prev => [...prev, userMsg, { from: "bot", text: "..." }]);
     const userInput = input;
     setInput("");
-  
+
     try {
-      const res = await fetch("http://localhost:3001/api/chat", {   // ⬅ change here
+      const res = await fetch("http://localhost:3001/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -32,15 +32,15 @@ export default function ChatBot() {
           interests: mockUser.interests
         })
       });
-  
+
       if (!res.ok) {
         throw new Error(`Server returned ${res.status}`);
       }
-  
+
       const data = await res.json(); // { reply, recommendedEventIds }
-  
+
       setMessages(prev => [
-        ...prev.filter(m => m.text !== "Thinking..."),
+        ...prev.filter(m => m.text !== "..."),
         { from: "bot", text: data.reply }
       ]);
     } catch (err) {
@@ -51,11 +51,28 @@ export default function ChatBot() {
       ]);
     }
   }
-  
+
   return (
     <>
       {/* Floating chat icon */}
-      <button className="chatbot-fab" onClick={toggleOpen}>
+      <button
+        className="chatbot-fab"
+        style={{
+          position: "fixed",
+          bottom: "20px",
+          right: "20px",
+          zIndex: 9999,
+          background: "red",
+          color: "white",
+          borderRadius: "50%",
+          width: "56px",
+          height: "56px",
+          fontSize: "24px",
+          border: "none",
+          cursor: "pointer",
+        }}
+        onClick={toggleOpen}
+      >
         💬
       </button>
 
