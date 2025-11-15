@@ -1,0 +1,222 @@
+[
+  {
+    "id": "int_a1b2c3d4e5",
+    "category": "Internship",
+    "title": "Software Engineering Internship",
+    "organisation": "TechNova Solutions",
+    "shortDescription": "Gain hands-on experience building scalable web applications and working with modern frameworks in a collaborative engineering team.",
+    "description": "Join TechNova’s engineering team and contribute to the development of scalable, production-ready web applications. You will work with modern frameworks, participate in code reviews, implement new features, fix bugs, and collaborate closely with senior engineers following agile methodologies. This internship provides hands-on experience in full-stack development, cloud deployment workflows, and best practices for writing clean, maintainable code.",
+    "requirements": [
+      "Basic knowledge of JavaScript, Python, or Java",
+      "Familiarity with React, Node.js, or similar frameworks",
+      "Understanding of version control (Git)",
+      "Problem-solving mindset and willingness to learn",
+      "Ability to work in a collaborative team environment"
+    ],
+    "salary": "SGD 1,500–1,800/month",
+    "date": "apply by 2025-05-20",
+    "time": "Full-time (3 months)",
+    "location": "TechNova HQ, Downtown",
+    "spots": 5,
+    "imgSrc": "https://images.unsplash.com/photo-1581093588401-22e8a5f8e6b3",
+    "tags": ["tech", "software", "internship", "engineering", "coding"]
+  },
+  {
+    "id": "int_b6f3n7p2r8",
+    "category": "Internship",
+    "title": "Marketing & Communications Internship",
+    "organisation": "BrightWave Media",
+    "shortDescription": "Support marketing campaigns, social media management, and audience analysis for a dynamic media company.",
+    "description": "Support BrightWave Media’s branding and outreach efforts by helping plan, execute, and analyze marketing campaigns. You will create engaging content for social platforms, assist in drafting communication materials, track audience analytics, and brainstorm creative strategies to increase digital visibility. This internship is perfect for students interested in content creation, branding psychology, and digital marketing trends.",
+    "requirements": [
+      "Strong writing and communication skills",
+      "Familiarity with social media platforms",
+      "Basic understanding of Canva, Photoshop, or similar tools",
+      "Creativity and interest in digital content creation",
+      "Ability to analyze engagement metrics"
+    ],
+    "salary": "SGD 1,200–1,500/month",
+    "date": "apply by 2025-06-10",
+    "time": "Part-time (10 weeks)",
+    "location": "Remote",
+    "spots": 3,
+    "imgSrc": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "tags": ["marketing", "communications", "media", "branding"]
+  },
+  {
+    "id": "int_c2m9t5x7y3",
+    "category": "Internship",
+    "title": "Finance Analyst Internship",
+    "organisation": "CapitalCore Investments",
+    "shortDescription": "Assist financial analysts in evaluating company performance, market trends, and investment opportunities.",
+    "description": "Work alongside CapitalCore’s financial analysts to evaluate company performance, study market movements, and assist in preparing financial models and reports. You will help analyze datasets, assess investment risks, and contribute to industry research. This internship offers exposure to portfolio analysis, valuation methods, and real-world decision-making within investment and corporate finance.",
+    "requirements": [
+      "Strong analytical and numerical skills",
+      "Proficiency in Excel or Google Sheets",
+      "Interest in finance, investing, or economics",
+      "Attention to detail",
+      "Ability to interpret financial data"
+    ],
+    "salary": "SGD 1,500–1,700/month",
+    "date": "apply by 2025-06-15",
+    "time": "Full-time (8 weeks)",
+    "location": "Financial District Office",
+    "spots": 4,
+    "imgSrc": "https://images.unsplash.com/photo-1556740758-90de374c12ad",
+    "tags": ["finance", "investment", "analysis", "economics"]
+  },
+  {
+    "id": "int_d7r2q6v9k4",
+    "category": "Internship",
+    "title": "Graphic Design Internship",
+    "organisation": "PixelWorks Studio",
+    "shortDescription": "Collaborate with designers to create branding assets, posters, and digital media content in a creative studio.",
+    "description": "Collaborate with senior designers to produce high-quality branding materials, digital assets, posters, and social media visuals. You will participate in concept development, typography selection, layout design, and iterative revisions based on team feedback. This role is perfect for creatives looking to strengthen their visual storytelling skills and gain real-world experience using Adobe Illustrator, Photoshop, and Figma.",
+    "requirements": [
+      "Basic proficiency in Photoshop, Illustrator, or Figma",
+      "Creativity and strong visual sense",
+      "Portfolio or examples of previous design work",
+      "Understanding of branding and layout principles",
+      "Ability to follow visual guidelines"
+    ],
+    "salary": "SGD 1,200–1,400/month",
+    "date": "apply by 2025-07-01",
+    "time": "Part-time (10 weeks)",
+    "location": "Creative Hub, Block C",
+    "spots": 2,
+    "imgSrc": "https://images.unsplash.com/photo-1587614382346-4ec1d0e0b4ab",
+    "tags": ["design", "graphics", "creative", "media"]
+  },
+  {
+    "id": "int_e3h5p8w1z6",
+    "category": "Internship",
+    "title": "Environmental Research Assistant",
+    "organisation": "Green Earth Foundation",
+    "shortDescription": "Assist with sustainability projects, environmental data collection, and campus green initiatives.",
+    "description": "Assist researchers and sustainability coordinators in collecting, organizing, and analyzing environmental data for ongoing green initiatives. You'll contribute to field surveys, environmental reporting, and sustainability projects aimed at reducing ecological impact on campus. This internship is ideal for students passionate about climate science, environmental policy, and real-world ecological research.",
+    "requirements": [
+      "Interest in environmental science or sustainability",
+      "Ability to conduct fieldwork and collect data",
+      "Basic research or report-writing skills",
+      "Attention to environmental detail",
+      "Team-oriented mindset"
+    ],
+    "salary": "SGD 1,200–1,400/month",
+    "date": "apply by 2025-06-05",
+    "time": "Full-time (6 weeks)",
+    "location": "Environmental Science Lab",
+    "spots": 3,
+    "imgSrc": "https://images.unsplash.com/photo-1504384308090-5f6e0c1f91c9",
+    "tags": ["environment", "sustainability", "research", "eco-friendly"]
+  },
+  {
+    "id": "int_f9k1n2x7q4",
+    "category": "Internship",
+    "title": "Data Science Internship",
+    "organisation": "Insight Analytics",
+    "shortDescription": "Build predictive models, clean datasets, and create visualizations alongside experienced data scientists.",
+    "description": "Join Insight Analytics’ data science team to build predictive models, clean and process large datasets, and create insightful visualizations. You will work with machine learning workflows, develop analytical dashboards, and support ongoing research projects. This internship provides practical experience in Python, data pipelines, feature engineering, and communicating data-driven insights.",
+    "requirements": [
+      "Basic Python programming skills",
+      "Familiarity with Pandas, NumPy, or similar libraries",
+      "Interest in machine learning or analytics",
+      "Ability to understand datasets and charts",
+      "Strong logical and quantitative skills"
+    ],
+    "salary": "SGD 1,600–1,900/month",
+    "date": "apply by 2025-07-10",
+    "time": "Full-time (12 weeks)",
+    "location": "TechPark Building 2",
+    "spots": 6,
+    "imgSrc": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    "tags": ["data", "AI", "analytics", "machine learning"]
+  },
+  {
+    "id": "int_g4p6s3m8v2",
+    "category": "Internship",
+    "title": "Public Relations Internship",
+    "organisation": "City PR Agency",
+    "shortDescription": "Assist with press releases, media relations, and event coordination in a dynamic PR environment.",
+    "description": "Support City PR’s communications team by preparing media kits, drafting press releases, coordinating client events, and monitoring public sentiment. You'll help manage relationships with journalists, contribute to PR campaigns, and track coverage across digital platforms. This internship is perfect for students interested in strategic communication, branding reputation, and event coordination.",
+    "requirements": [
+      "Strong writing and communication abilities",
+      "Comfortable speaking with media professionals",
+      "Interest in PR, branding, or communications",
+      "Organizational skills for managing events",
+      "Ability to stay calm under deadlines"
+    ],
+    "salary": "SGD 1,300–1,500/month",
+    "date": "apply by 2025-05-25",
+    "time": "Part-time (8 weeks)",
+    "location": "City Center Office",
+    "spots": 3,
+    "imgSrc": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "tags": ["PR", "communications", "media", "branding"]
+  },
+  {
+    "id": "int_h8q5b2n7l3",
+    "category": "Internship",
+    "title": "UX/UI Design Internship",
+    "organisation": "NextGen Digital",
+    "shortDescription": "Design user-centered interfaces, create prototypes, and conduct usability testing for digital products.",
+    "description": "Assist the product design team in creating intuitive, user-centered digital experiences. You will design wireframes, prototype interfaces, conduct usability testing, and gather user feedback to improve product flows. This role is ideal for aspiring designers seeking hands-on experience with Figma, design systems, user research, and modern UX/UI methodologies.",
+    "requirements": [
+      "Basic knowledge of UX/UI principles",
+      "Ability to use Figma or similar tools",
+      "Strong interest in product design",
+      "Creativity and problem-solving mindset",
+      "Ability to conduct or observe user testing"
+    ],
+    "salary": "SGD 1,400–1,600/month",
+    "date": "apply by 2025-06-18",
+    "time": "Full-time (10 weeks)",
+    "location": "Innovation Center",
+    "spots": 4,
+    "imgSrc": "https://images.unsplash.com/photo-1559028012-481c04fa702d",
+    "tags": ["design", "UX", "UI", "tech", "innovation"]
+  },
+  {
+    "id": "int_j2m7r9p4x8",
+    "category": "Internship",
+    "title": "Biomedical Engineering Internship",
+    "organisation": "MediTech Labs",
+    "shortDescription": "Work with engineers developing and testing medical devices and prototypes in a research lab.",
+    "description": "Work with biomedical engineers to design, test, and refine medical device prototypes. You'll assist with laboratory experiments, data collection, device calibration, and documentation required for regulatory compliance. This internship provides exposure to biomedical instrumentation, prototyping tools, and the innovation pipeline behind next-generation healthcare technology.",
+    "requirements": [
+      "Interest in biomedical engineering or life sciences",
+      "Comfort working in a lab environment",
+      "Basic technical or engineering knowledge",
+      "Attention to mechanical and analytical details",
+      "Ability to document experimental results accurately"
+    ],
+    "salary": "SGD 1,600–1,900/month",
+    "date": "apply by 2025-07-15",
+    "time": "Full-time (12 weeks)",
+    "location": "HealthTech Research Wing",
+    "spots": 5,
+    "imgSrc": "https://images.unsplash.com/photo-1581090463618-4e27b48ff24e",
+    "tags": ["biomedical", "engineering", "research", "innovation"]
+  },
+  {
+    "id": "int_k5v2n9h3r1",
+    "category": "Internship",
+    "title": "Education Outreach Internship",
+    "organisation": "Future Scholars Foundation",
+    "shortDescription": "Support community learning programs, tutor students, and assist in organizing educational workshops.",
+    "description": "Support educational outreach programmes by assisting with tutoring sessions, developing learning materials, and organizing workshops for students. You will help design engaging curriculum resources, coordinate community events, and work closely with educators to assess learning progress. This internship is suited for students interested in teaching, curriculum development, community service, or nonprofit education work.",
+    "requirements": [
+      "Interest in teaching or community education",
+      "Good communication and teamwork skills",
+      "Ability to work with students of different ages",
+      "Organizational skills for event coordination",
+      "Patience and a supportive attitude"
+    ],
+    "salary": "SGD 1,200–1,400/month",
+    "date": "apply by 2025-05-28",
+    "time": "Part-time (8 weeks)",
+    "location": "Community Learning Center",
+    "spots": 4,
+    "imgSrc": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d",
+    "tags": ["education", "community", "teaching", "nonprofit"]
+  }
+]
