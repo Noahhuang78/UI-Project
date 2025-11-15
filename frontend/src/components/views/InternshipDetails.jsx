@@ -48,7 +48,7 @@ export default function InternshipDetails() {
           </div>
         </div>
       </div>
-      <Button />
+      <Button text="Apply Now" />
       <button style={{ backgroundColor: "gray" }}>
         <div className="save-internship">
             <span class="material-symbols-outlined">bookmark</span>

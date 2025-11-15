@@ -11,7 +11,7 @@ import EventData from "./assets/EventData.json"
 import InternshipData from "./assets/EventData.json"
 import InternshipDetails from "./components/views/InternshipDetails";
 import EventDetails from "./components/views/EventDetails"
-
+import ClubDetails from "./components/views/ClubDetails";
 export default function App() {
   
   const [joinedClubs, setjoinedClujbs] = useState([])
@@ -23,6 +23,7 @@ export default function App() {
     <div className="hub-container">
       <RightSideBar/>
       <Routes>
+        <Route path='/clubs/:id' element={<ClubDetails/>}></Route>
         <Route path='/events/:id' element={<EventDetails/>}></Route>
         <Route path='/internships/:id' element={<InternshipDetails/>}></Route>
         <Route path="/home" element={<HomePage />} />

@@ -242,7 +242,7 @@
 }
 
 
-button{
+.details-container button{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -258,7 +258,7 @@ button{
     border-radius: 6px;
 }
 
-button:hover{
+.details-container button:hover{
     background-color: rgb(155, 69, 23);
     cursor: pointer;
 }

@@ -7,8 +7,9 @@ function truncateWords(text, wordLimit) {
   return words.slice(0, wordLimit).join(" ") + "..."; // join first N words
 }
 
-export default function EventCard({
+export default function ClubCard({
   category,
+  id,
   tags,
   title,
   organisation,
@@ -23,8 +24,8 @@ export default function EventCard({
   
   const navigate = useNavigate();
   return (
-    <div className="event-card" onClick={() => navigate(`/clubs/:${id}`)}>
-      <Image imgSrc={imgSrc} />
+    <div className="event-card" onClick={() => navigate(`/clubs/${id}`)}>
+      <Image imgSrc={imgSrc} category={category} />
       <ul>{tags.map((tag)=><li>{tag}</li>)}</ul>
       <div className="date-time">
         <div className="date">

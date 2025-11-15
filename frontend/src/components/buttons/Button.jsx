@@ -1,4 +1,4 @@
-export default function Button() {
+export default function Button({text}) {
   return (
     <button
       onClick={() =>
@@ -8,7 +8,7 @@ export default function Button() {
       }
     >
       <span class="material-symbols-outlined">task_alt</span>
-      Apply Now
+      {text}
     </button>
   );
 }
