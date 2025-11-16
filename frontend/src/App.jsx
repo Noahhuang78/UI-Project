@@ -6,7 +6,6 @@ import InternshipPage from "./components/views/InternshipPage";
 import ClubPage from "./components/views/ClubPage";
 import RightSideBar from "./components/bars/RightSideBar";
 import { useEffect, useState } from "react";
-import ClubData from "./assets/ClubData.json";
 import EventData from "./assets/EventData.json";
 import InternshipDetails from "./components/views/InternshipDetails";
 import EventDetails from "./components/views/EventDetails";

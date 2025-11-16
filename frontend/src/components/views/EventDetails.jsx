@@ -9,25 +9,45 @@ export default function EventDetails({ registeredEvents, setRegisteredEvents }) 
   const event = events.find((event) => event.id == id);
   const isRegistered = registeredEvents.some((event) => event.id == id);
 
-
-  const handleRegisterToggle = async () => {
-    if (isRegistered) {
-      alert("you have already applied");
-    }
-  };
-
   return (
     <div className="details-container">
       <div className="header">
         <Image imgSrc={event.imgSrc} category={event.category} />
-        <p>{event.tag}</p>
-        <span>{event.organisation}</span>
+        <text>{event.organisation}</text>
         <h1>{event.title}</h1>
         <div className="footer"></div>
-        <div className="details">
-          <div className="about">
-            <h2>About this Opportunity</h2>
-            {event.description}
+      </div>
+
+      <div className="details">
+        <div className="about">
+          <h2>About this Opportunity</h2>
+          {event.description}
+        </div>
+
+        <div className="company-info">
+          <h3>Company Information</h3>
+          <div className="info-wrapper">
+            <div className="info-item">
+              <span className="material-symbols-outlined">calendar_today</span>
+              <span>{event.date}</span>
+            </div>
+
+            <div className="info-item">
+              <span className="material-symbols-outlined">
+                nest_clock_farsight_analog
+              </span>
+              <span>{event.time}</span>
+            </div>
+
+            <div className="info-item">
+              <span className="material-symbols-outlined">location_on</span>
+              <span>{event.location}</span>
+            </div>
+
+            <div className="info-item">
+              <span className="material-symbols-outlined">group</span>
+              <span>{event.spots} interested</span>
+            </div>
           </div>
         </div>
       </div>
