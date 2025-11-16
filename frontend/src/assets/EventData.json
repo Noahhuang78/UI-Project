@@ -13,7 +13,7 @@
     "tags": ["tech", "innovation", "competition", "coding", "teamwork"]
   },
   {
-    "id": "evt_b3x7q8r1t5",
+    "id": "evt_b3x7q8r1t5_1",
     "category": "Event",
     "title": "Career Fair 2025",
     "organisation": "Student Career Office",
@@ -26,7 +26,7 @@
     "tags": ["career", "networking", "employment", "resume", "opportunities"]
   },
   {
-    "id": "evt_c5w2j9h4k8",
+    "id": "evt_c5w2j9h4k8_1",
     "category": "Event",
     "title": "Startup Pitch Night",
     "organisation": "Entrepreneurship Club",
@@ -39,7 +39,7 @@
     "tags": ["entrepreneurship", "pitch", "business", "innovation"]
   },
   {
-    "id": "evt_d8f6n3l7m1",
+    "id": "evt_d8f6n3l7m1_1",
     "category": "Event",
     "title": "Wellness Workshop",
     "organisation": "Campus Health Centre",
@@ -52,7 +52,7 @@
     "tags": ["wellness", "health", "mindfulness", "self-care"]
   },
   {
-    "id": "evt_e2h5v9x3z7",
+    "id": "evt_e2h5v9x3z7_1",
     "category": "Event",
     "title": "International Food Festival",
     "organisation": "Cultural Exchange Society",
@@ -65,20 +65,7 @@
     "tags": ["food", "culture", "festival", "community"]
   },
   {
-    "id": "evt_f4k8p1w6y2",
-    "category": "Event",
-    "title": "AI & Machine Learning Symposium",
-    "organisation": "Computer Science Department",
-    "description": "Industry experts present the latest trends in AI and machine learning, with hands-on workshops, interactive sessions, and discussions on research, applications, and innovations in technology.",
-    "date": "2025-03-28",
-    "time": "09:00 AM - 05:00 PM",
-    "location": "Tech Building Auditorium",
-    "spots": 150,
-    "imgSrc": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
-    "tags": ["tech", "AI", "machine learning", "research", "conference"]
-  },
-  {
-    "id": "evt_g7n2s5t9u4",
+    "id": "evt_g7n2s5t9u4_1",
     "category": "Event",
     "title": "Spring Music Concert",
     "organisation": "Music Society",
@@ -91,7 +78,7 @@
     "tags": ["music", "concert", "performance", "arts"]
   },
   {
-    "id": "evt_h9m4r7q3v8",
+    "id": "evt_h9m4r7q3v8_1",
     "category": "Event",
     "title": "Sustainability Summit",
     "organisation": "Green Campus Initiative",
@@ -104,7 +91,7 @@
     "tags": ["sustainability", "environment", "climate", "eco-friendly"]
   },
   {
-    "id": "evt_j1x6l8k2n5",
+    "id": "evt_j1x6l8k2n5_1",
     "category": "Event",
     "title": "Photography Exhibition Opening",
     "organisation": "Visual Arts Club",
@@ -115,59 +102,6 @@
     "spots": 120,
     "imgSrc": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4",
     "tags": ["art", "photography", "exhibition", "creativity"]
-  },
-
-  {
-    "id": "evt_b3x7q8r1t5",
-    "category": "Event",
-    "title": "Career Fair 2025",
-    "organisation": "Student Career Office",
-    "description": "Meet top employers, explore internships and job opportunities, attend resume workshops, and receive guidance on networking, interviews, and career planning to advance your professional development.",
-    "date": "2025-04-10",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "Main Hall",
-    "spots": 300,
-    "imgSrc": "https://images.unsplash.com/photo-1551836022-4b9d8b71c278",
-    "tags": ["career", "networking", "employment", "resume", "opportunities"]
-  },
-  {
-    "id": "evt_c5w2j9h4k8",
-    "category": "Event",
-    "title": "Startup Pitch Night",
-    "organisation": "Entrepreneurship Club",
-    "description": "Pitch your innovative startup ideas to industry experts and investors, receive valuable feedback, network with like-minded entrepreneurs, and gain exposure in a dynamic and engaging environment.",
-    "date": "2025-05-01",
-    "time": "06:00 PM - 09:00 PM",
-    "location": "Innovation Lab",
-    "spots": 50,
-    "imgSrc": "https://images.unsplash.com/photo-1515168833906-d2a3b82b302d",
-    "tags": ["entrepreneurship", "pitch", "business", "innovation"]
-  },
-  {
-    "id": "evt_d8f6n3l7m1",
-    "category": "Event",
-    "title": "Wellness Workshop",
-    "organisation": "Campus Health Centre",
-    "description": "Participate in a mindfulness and wellness workshop designed to reduce stress, improve mental health, and maintain balance through guided exercises, interactive discussions, and relaxation techniques.",
-    "date": "2025-04-20",
-    "time": "02:00 PM - 05:00 PM",
-    "location": "Room 204, Health Block",
-    "spots": 40,
-    "imgSrc": "https://images.unsplash.com/photo-1553531888-a96d4eaedbb9",
-    "tags": ["wellness", "health", "mindfulness", "self-care"]
-  },
-  {
-    "id": "evt_e2h5v9x3z7",
-    "category": "Event",
-    "title": "International Food Festival",
-    "organisation": "Cultural Exchange Society",
-    "description": "Celebrate global culinary diversity with student chefs preparing dishes from around the world, enjoy tastings, cooking demonstrations, and cultural performances celebrating food, traditions, and community connections.",
-    "date": "2025-03-22",
-    "time": "12:00 PM - 06:00 PM",
-    "location": "University Green",
-    "spots": 500,
-    "imgSrc": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1",
-    "tags": ["food", "culture", "festival", "community"]
   },
   {
     "id": "evt_f4k8p1w6y2",
@@ -181,189 +115,5 @@
     "spots": 150,
     "imgSrc": "https://images.unsplash.com/photo-1677442136019-21780ecad995",
     "tags": ["tech", "AI", "machine learning", "research", "conference"]
-  },
-  {
-    "id": "evt_g7n2s5t9u4",
-    "category": "Event",
-    "title": "Spring Music Concert",
-    "organisation": "Music Society",
-    "description": "Enjoy an evening of live music performances by student bands and solo artists, showcasing a variety of musical styles and talents in a lively, engaging, and entertaining concert experience.",
-    "date": "2025-04-05",
-    "time": "07:00 PM - 10:00 PM",
-    "location": "Campus Theatre",
-    "spots": 250,
-    "imgSrc": "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4",
-    "tags": ["music", "concert", "performance", "arts"]
-  },
-  {
-    "id": "evt_h9m4r7q3v8",
-    "category": "Event",
-    "title": "Sustainability Summit",
-    "organisation": "Green Campus Initiative",
-    "description": "Learn about sustainable living, climate action, and environmental solutions through engaging talks, interactive workshops, and networking with experts advocating for a greener, more eco-conscious future.",
-    "date": "2025-04-15",
-    "time": "01:00 PM - 06:00 PM",
-    "location": "Science Building Room 301",
-    "spots": 80,
-    "imgSrc": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09",
-    "tags": ["sustainability", "environment", "climate", "eco-friendly"]
-  },
-  {
-    "id": "evt_j1x6l8k2n5",
-    "category": "Event",
-    "title": "Photography Exhibition Opening",
-    "organisation": "Visual Arts Club",
-    "description": "Explore the creative works of student photographers as they showcase images reflecting identity, culture, and perspective, accompanied by artist talks, storytelling, and interactive engagement opportunities.",
-    "date": "2025-03-18",
-    "time": "05:00 PM - 08:00 PM",
-    "location": "Campus Gallery",
-    "spots": 120,
-    "imgSrc": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4",
-    "tags": ["art", "photography", "exhibition", "creativity"]
-  },
-  {
-    "id": "evt_k3b9d5f1h7",
-    "category": "Event",
-    "title": "Women in STEM Panel",
-    "organisation": "Women in Technology Society",
-    "description": "Engage with inspiring female leaders in science, technology, engineering, and math as they share career journeys, challenges, insights, and advice to encourage diversity and empower the next generation.",
-    "date": "2025-03-25",
-    "time": "04:00 PM - 06:30 PM",
-    "location": "Engineering Building Lecture Hall",
-    "spots": 200,
-    "imgSrc": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2",
-    "tags": ["STEM", "diversity", "empowerment", "education"]
-  },
-  {
-    "id": "evt_l6w3c8z4a9",
-    "category": "Event",
-    "title": "5K Charity Run",
-    "organisation": "Athletics Department",
-    "description": "Participate in a 5K run to support local children’s charities, promote fitness and healthy living, and enjoy a community-focused event filled with energy, motivation, and fundraising spirit.",
-    "date": "2025-04-12",
-    "time": "07:00 AM - 10:00 AM",
-    "location": "Campus Track & Field",
-    "spots": 400,
-    "imgSrc": "https://images.unsplash.com/photo-1452626038306-9aae5e071dd3",
-    "tags": ["fitness", "charity", "sports", "community"]
-  },
-  {
-    "id": "evt_m8p2v7n1q6",
-    "category": "Event",
-    "title": "Debate Championship Finals",
-    "organisation": "Debate Society",
-    "description": "Watch top debaters compete in the final round of the annual championship, showcasing critical thinking, persuasive communication, and public speaking skills in an exciting and competitive environment.",
-    "date": "2025-04-18",
-    "time": "06:00 PM - 09:00 PM",
-    "location": "Law Building Moot Court",
-    "spots": 100,
-    "imgSrc": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2",
-    "tags": ["debate", "public speaking", "competition"]
-  },
-  {
-    "id": "evt_n4r9k5j8l3",
-    "category": "Event",
-    "title": "Game Development Workshop",
-    "organisation": "Gaming Club",
-    "description": "Learn the fundamentals of game design and development, including Unity basics, coding, and interactive design, and create your first playable game in a supportive, hands-on workshop.",
-    "date": "2025-03-30",
-    "time": "10:00 AM - 04:00 PM",
-    "location": "Computer Lab 3",
-    "spots": 60,
-    "imgSrc": "https://images.unsplash.com/photo-1511512578047-dfb367046420",
-    "tags": ["tech", "gaming", "workshop", "design"]
-  },
-  {
-    "id": "evt_p7s1t6m9x2",
-    "category": "Event",
-    "title": "Mental Health Awareness Week Kickoff",
-    "organisation": "Student Wellness Committee",
-    "description": "Kick off Mental Health Awareness Week with stress-relief activities, peer support sessions, educational talks, and access to wellness resources promoting mental wellbeing across the student community.",
-    "date": "2025-04-07",
-    "time": "12:00 PM - 03:00 PM",
-    "location": "Student Center Plaza",
-    "spots": 250,
-    "imgSrc": "https://images.unsplash.com/photo-1544027993-37dbfe43562a",
-    "tags": ["wellness", "mental health", "community", "awareness"]
-  },
-  {
-    "id": "evt_q2h8w4b7y5",
-    "category": "Event",
-    "title": "Film Screening: Documentary Night",
-    "organisation": "Film Society",
-    "description": "Attend a special documentary screening featuring award-winning films, followed by interactive discussion with the director, exploring themes, storytelling, and filmmaking insights.",
-    "date": "2025-04-22",
-    "time": "07:00 PM - 10:00 PM",
-    "location": "Cinema Hall",
-    "spots": 180,
-    "imgSrc": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba",
-    "tags": ["film", "documentary", "discussion", "arts"]
-  },
-  {
-    "id": "evt_r5z3f9g1d8",
-    "category": "Event",
-    "title": "Robotics Competition",
-    "organisation": "Robotics Society",
-    "description": "Teams design and build autonomous robots to complete challenging tasks, demonstrating engineering, programming, and teamwork skills in a competitive and innovative robotics showcase.",
-    "date": "2025-05-05",
-    "time": "10:00 AM - 06:00 PM",
-    "location": "Engineering Workshop",
-    "spots": 80,
-    "imgSrc": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
-    "tags": ["tech", "robotics", "competition", "engineering"]
-  },
-  {
-    "id": "evt_s9v6n2l4k7",
-    "category": "Event",
-    "title": "Poetry Slam Open Mic",
-    "organisation": "Creative Writing Society",
-    "description": "Share original poetry or enjoy performances by talented student poets at this open mic, celebrating literary creativity, expression, and community engagement in a lively and interactive environment.",
-    "date": "2025-04-25",
-    "time": "07:30 PM - 10:00 PM",
-    "location": "Campus Café",
-    "spots": 70,
-    "imgSrc": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
-    "tags": ["poetry", "literature", "performance", "arts"]
-  },
-  {
-    "id": "evt_t1j8c5x3p9",
-    "category": "Event",
-    "title": "Blockchain & Cryptocurrency Workshop",
-    "organisation": "FinTech Club",
-    "description": "Learn about blockchain technology, crypto assets, and decentralized finance, including practical applications, investment insights, and hands-on demonstrations to understand this rapidly evolving financial ecosystem.",
-    "date": "2025-04-28",
-    "time": "02:00 PM - 05:00 PM",
-    "location": "Business School Room 205",
-    "spots": 90,
-    "imgSrc": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0",
-    "tags": ["tech", "blockchain", "finance", "workshop"]
-  },
-  {
-    "id": "evt_u4m7q2w8h6",
-    "category": "Event",
-    "title": "Alumni Networking Evening",
-    "organisation": "Alumni Relations Office",
-    "description": "Connect with successful alumni across multiple industries, build professional relationships, gain mentorship, and exchange ideas in a relaxed evening of networking and career development opportunities.",
-    "date": "2025-05-08",
-    "time": "06:00 PM - 09:00 PM",
-    "location": "University Club Lounge",
-    "spots": 120,
-    "imgSrc": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622",
-    "tags": ["networking", "career", "mentorship", "alumni"]
-  },
-  {
-    "id": "evt_v7k3b9t1r5",
-    "category": "Event",
-    "title": "Latin Dance Night",
-    "organisation": "Dance Society",
-    "description": "Learn salsa, bachata, and merengue with professional instructors, enjoy social dancing, and experience a lively night celebrating Latin music, rhythm, movement, and community energy.",
-    "date": "2025-05-10",
-    "time": "07:00 PM - 11:00 PM",
-    "location": "Student Recreation Center",
-    "spots": 150,
-    "imgSrc": "https://images.unsplash.com/photo-1504609813442-a8924e83f76e",
-    "tags": ["dance", "culture", "music", "social"]
   }
 ]
-
-

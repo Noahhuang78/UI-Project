@@ -10,7 +10,7 @@ function truncateWords(text, wordLimit) {
 export default function InternshipCard({
   id,
   category,
-  tag,
+  tags,
   title,
   organisation,
   description,
@@ -21,11 +21,12 @@ export default function InternshipCard({
   salary,
   imgSrc,
 }) {
+  console.log(tags)
   const navigate = useNavigate();
   return (
     <div className="event-card" onClick={() => navigate(`/internships/${id}`)}>
+      <ul>{tags.map((tag)=><li>{tag}</li>)}</ul>
       <Image imgSrc={imgSrc} category={category} />
-
       <div className="card-details-wrapper">
         <div className="card-title">
           <h4>{title}</h4>

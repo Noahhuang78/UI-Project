@@ -37,6 +37,7 @@ export default function Internships({ data, category, tags }) {
           <InternshipCard
             key={event.id}
             id = {event.id}
+            tags={event.tags}
             category={event.category}
             organisation={event.organisation}
             description={event.shortDescription}

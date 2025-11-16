@@ -54,7 +54,7 @@ export default function ClubCard({
           </div>
           <div className="card-spots">
             <span className="material-symbols-outlined">group</span>
-            <span>{spots}</span>
+            <span>{spots} members</span>
           </div>
         </div>
       </div>
