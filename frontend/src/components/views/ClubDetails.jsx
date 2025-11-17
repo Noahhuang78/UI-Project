@@ -5,7 +5,7 @@ import Button from "../buttons/ApplyButton";
 import JoinButton from "../buttons/JoinButton";
 import BackButton from "../buttons/BackButton";
 import BreadCrumbs from "../bars/BreadCrumbs";
-import NavBar from "../bars/NavBar";
+import NavBar from "../bars/BackBar";
 
 export default function ClubDetails({ joinedClubs, setJoinedClubs }) {
   const { id } = useParams();
@@ -46,7 +46,7 @@ export default function ClubDetails({ joinedClubs, setJoinedClubs }) {
   };
   return (
     <div className="details-container">
-      <NavBar/>
+      <NavBar />
       <div className="header">
         <Image imgSrc={club.imgSrc} category={club.category} />
         <text>{club.organisation}</text>

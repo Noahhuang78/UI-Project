@@ -162,3 +162,81 @@
     grid-template-columns: repeat(2, 1fr); /* 2 columns in landscape */
   }
 }
+
+/* mobile navigation bar */
+
+@media (max-width: 768px) {
+  .hub-container {
+    flex-direction: column;
+    padding-bottom: 70px; /* Space for bottom nav */
+  }
+
+  .grid-container {
+    margin-inline: 20px; /* Smaller side margins on mobile */
+    margin-bottom: 70px; /* Space for bottom nav */
+  }
+
+  .right-side-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    border-left: none;
+    border-top: 2px solid rgba(128, 128, 128, 0.2);
+    background-color: white; /* Add background so content doesn't show through */
+    z-index: 1000;
+  }
+
+  .right-side-bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 0;
+  }
+
+  .right-side-bar ul li {
+    margin-bottom: 0;
+    flex: 1;
+  }
+
+  .right-side-bar ul a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 4px;
+    font-size: 12px;
+    text-align: center;
+    gap: 4px;
+  }
+
+  /* Icon styles - add icons before text */
+  .right-side-bar ul a::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 2px;
+  }
+
+  /* You can replace these with actual icon classes or SVGs */
+  .right-side-bar ul a[href*="home"]::before {
+    content: '🏠';
+  }
+
+  .right-side-bar ul a[href*="internships"]::before {
+    content: '💼';
+  }
+
+  .right-side-bar ul a[href*="clubs"]::before {
+    content: '👥';
+  }
+
+  .right-side-bar ul a[href*="events"]::before {
+    content: '📅';
+  }
+}

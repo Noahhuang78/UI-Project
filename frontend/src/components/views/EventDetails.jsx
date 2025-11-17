@@ -5,7 +5,7 @@ import RegisterButton from "../buttons/RegisterButton";
 import { useState } from "react";
 import BackButton from "../buttons/BackButton";
 import BreadCrumbs from "../bars/BreadCrumbs";
-import NavBar from "../bars/NavBar";
+import NavBar from "../bars/BackBar";
 
 export default function EventDetails({
   registeredEvents,
@@ -17,7 +17,7 @@ export default function EventDetails({
 
   return (
     <div className="details-container">
-      <NavBar/>
+      <NavBar />
       <div className="header">
         <Image imgSrc={event.imgSrc} category={event.category} />
         <text>{event.organisation}</text>

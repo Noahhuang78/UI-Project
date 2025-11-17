@@ -3,7 +3,7 @@ import { useState } from "react";
 import Internshiptags from "../../assets/InternshipTags.json";
 import BackButton from "../buttons/BackButton";
 import BreadCrumbs from "../bars/BreadCrumbs";
-import NavBar from "../bars/NavBar";
+import NavBar from "../bars/BackBar";
 
 export default function MyInternships({ savedInternships }) {
   const [selectedTag, setSelectedTag] = useState("");
@@ -20,7 +20,7 @@ export default function MyInternships({ savedInternships }) {
   return (
     <div className="grid-container">
       <div className="events-container">
-        <NavBar/>
+        <NavBar />
         <h1>Saved Internships</h1>
         <div className="filter">
           <input

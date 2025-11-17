@@ -5,7 +5,7 @@ import ApplyButton from "../buttons/ApplyButton";
 import SaveButton from "../buttons/SaveButton";
 import BackButton from "../buttons/BackButton";
 import BreadCrumbs from "../bars/BreadCrumbs";
-import NavBar from "../bars/NavBar";
+import NavBar from "../bars/BackBar";
 
 export default function InternshipDetails({
   savedInternships,
@@ -54,7 +54,7 @@ export default function InternshipDetails({
   return (
     <>
       <div className="details-container">
-        <NavBar/>
+        <NavBar />
         <div className="header">
           <Image imgSrc={internship.imgSrc} category={internship.category} />
           <text>{internship.organisation}</text>
