@@ -14,73 +14,122 @@ import MyEvents from "./components/views/MyEvents";
 import MyClubs from "./components/views/MyClubs";
 import MyInternships from "./components/views/MyInternships";
 
+// ✅ Add chatbot import (adjust path if your file is in a different folder)
+import Chatbot from "./components/chatbot/Chatbot";
 
 export default function App() {
-  const [appliedInternships, setAppliedInternships] = useState([]) //havent implemented backend for this yet, stored on frontend
+  const [appliedInternships, setAppliedInternships] = useState([]); 
   const [savedInternships, setSavedInternships] = useState([]);
-  const [joinedClubs, setJoinedClubs] = useState([])
-  const [registeredEvents, setRegisteredEvents] = useState([])
-
+  const [joinedClubs, setJoinedClubs] = useState([]);
+  const [registeredEvents, setRegisteredEvents] = useState([]);
 
   useEffect(() => {
     const loadSavedInternships = async () => {
       try {
         const res = await fetch("http://localhost:8000/myinternships");
-        console.log(res)
         const myinternships = await res.json();
-        setSavedInternships(myinternships)
-        console.log(myinternships)
+        setSavedInternships(myinternships);
       } catch (e) {
         console.error(`failed to retrieve my internships: ${e}`);
       }
     };
+
     const loadJoinedClubs = async () => {
       try {
         const res = await fetch("http://localhost:8000/myclubs");
-        console.log(res)
         const myclubs = await res.json();
-        setJoinedClubs(myclubs)
-        console.log(myclubs)
+        setJoinedClubs(myclubs);
       } catch (e) {
         console.error(`failed to retrieve my clubs: ${e}`);
       }
     };
+
     const loadRegisteredEvents = async () => {
       try {
         const res = await fetch("http://localhost:8000/myevents");
-        console.log(res)
         const myevents = await res.json();
-        setRegisteredEvents(myevents)
-        console.log(myevents)
+        setRegisteredEvents(myevents);
       } catch (e) {
         console.error(`failed to retrieve my events: ${e}`);
       }
     };
+
     loadSavedInternships();
     loadJoinedClubs();
     loadRegisteredEvents();
-  },[])
+  }, []);
 
   return (
     <>
       <div className="hub-container">
         <RightSideBar />
-        <Routes>
-          <Route path="/registeredEvents" element={<MyEvents registeredEvents={registeredEvents}/>}></Route>
-          <Route path="/savedInternships" element={<MyInternships savedInternships={savedInternships}/>}></Route>
-          <Route path="/joinedClubs" element={<MyClubs joinedClubs={joinedClubs}/>}></Route>
 
-          <Route path="/clubs/:id" element={<ClubDetails joinedClubs={joinedClubs} setJoinedClubs={setJoinedClubs}/>}></Route>
-          <Route path="/events/:id" element={<EventDetails registeredEvents={registeredEvents} setRegisteredEvents={setRegisteredEvents} />}></Route>
+        <Routes>
+          <Route
+            path="/registeredEvents"
+            element={<MyEvents registeredEvents={registeredEvents} />}
+          ></Route>
+
+          <Route
+            path="/savedInternships"
+            element={<MyInternships savedInternships={savedInternships} />}
+          ></Route>
+
+          <Route
+            path="/joinedClubs"
+            element={<MyClubs joinedClubs={joinedClubs} />}
+          ></Route>
+
+          <Route
+            path="/clubs/:id"
+            element={
+              <ClubDetails
+                joinedClubs={joinedClubs}
+                setJoinedClubs={setJoinedClubs}
+              />
+            }
+          ></Route>
+
+          <Route
+            path="/events/:id"
+            element={
+              <EventDetails
+                registeredEvents={registeredEvents}
+                setRegisteredEvents={setRegisteredEvents}
+              />
+            }
+          ></Route>
+
           <Route
             path="/internships/:id"
-            element={<InternshipDetails savedInternships={savedInternships} setSavedInternships={setSavedInternships} appliedInternships={appliedInternships} setAppliedInternships={setAppliedInternships}/>}
+            element={
+              <InternshipDetails
+                savedInternships={savedInternships}
+                setSavedInternships={setSavedInternships}
+                appliedInternships={appliedInternships}
+                setAppliedInternships={setAppliedInternships}
+              />
+            }
           ></Route>
-          <Route path="/home" element={<HomePage joinedClubs={joinedClubs} registeredEvents={registeredEvents} savedInternships={savedInternships}/>} />
+
+          <Route
+            path="/home"
+            element={
+              <HomePage
+                joinedClubs={joinedClubs}
+                registeredEvents={registeredEvents}
+                savedInternships={savedInternships}
+              />
+            }
+          />
+
           <Route path="/events" element={<EventPage data={EventData} />} />
           <Route path="/internships" element={<InternshipPage />} />
           <Route path="/clubs" element={<ClubPage />} />
         </Routes>
+
+        {/* ✅ Chatbot appears on all pages */}
+        <Chatbot />
       </div>
     </>
   );

@@ -1,9 +1,8 @@
 // src/components/views/HomePage.jsx
 import { useState, useEffect } from "react";
 import RightSideBar from "../bars/RightSideBar";
-import Dashboard from "../sections/Dashboard";
 import Recommended from "../sections/Recommended";
-import UpcomingEvents from "../sections/UpcomingEvents";
+import Dashboard from "../sections/Dashboard";
 import PersonalizeInterests from "../sections/PersonalizeInterests";
 
 // newsletter feature
@@ -18,7 +17,7 @@ import "./Homepage.css";
 const LS_INTERESTS_KEY = "campushub_interests";
 const LS_NEWS_FILTERS_KEY = "campushub_news_filters";
 
-export default function HomePage({ data }) {
+export default function HomePage({ joinedClubs,registeredEvents, savedInternships }) {
   // ----- interests for Recommended section -----
   const allTags = [...new Set([...ClubTags, ...EventTags, ...InternshipTags])];
 
@@ -134,9 +133,9 @@ export default function HomePage({ data }) {
       )}
 
       {/* Top: dashboard + stats / welcome section */}
-      <Dashboard onEditInterests={handleOpenPersonalize} />
-      <UpcomingEvents onEditInterests={handleOpenPersonalize} />
-
+      <Dashboard onEditInterests={handleOpenPersonalize} joinedClubs={joinedClubs}
+                registeredEvents={registeredEvents}
+                savedInternships={savedInternships}/>
       {/* Recommended For You (based on interests) */}
       {hasSavedInterests && (
         <Recommended selectedInterests={selectedInterests} />
