@@ -1,5 +1,6 @@
-import { useNavigate } from "react-router-dom";
+// src/components/sections/Dashboard.jsx
 
+<<<<<<< HEAD
 export default function Dashboard({ joinedClubs, registeredEvents, savedInternships }) {
   const navigate = useNavigate();
   
@@ -25,3 +26,13 @@ export default function Dashboard({ joinedClubs, registeredEvents, savedInternsh
     </div>
   );
 }
+=======
+export default function Dashboard() {
+    return (
+      <section className="dashboard">
+        <h2>Your Dashboard</h2>
+      </section>
+    );
+  }
+  
+>>>>>>> c43081b5a69720c7350bf77c5f4c4ecef1760369

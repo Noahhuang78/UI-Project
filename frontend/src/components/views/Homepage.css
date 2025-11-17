@@ -429,3 +429,496 @@
 
 
 
+<<<<<<< HEAD
+=======
+.event-card .card-footer .card-location{
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    color:rgb(71, 85, 105);
+}
+
+.event-card .card-footer .card-spots{
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    color:rgb(71, 85, 105);
+}
+
+.event-card  .internship-card-location{
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    color:orangered;
+}
+
+.event-card .internship-card-spots{
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    color:orangered;
+}
+
+.details-container{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 80px;
+    gap: 40px;
+    margin-left: 240px;
+    
+}
+
+.details-container img{
+    width: 60%;
+    height: auto;
+}
+
+.details-container .header{
+    display: flex;
+    flex-direction: column;
+}
+.details-container .header text{
+    color: gray;
+    margin-block: 10px;
+    font-weight: bold;
+}
+.details-container .details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.details-container .about{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.details-container .requirements ul{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.details-container .company-info .info-wrapper{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.details-container .company-info .info-wrapper div{
+    display: flex;
+    gap: 4px;
+    align-items: flex-end;
+}
+
+.details-container .company-info .info-wrapper div .material-symbols-outlined{
+    color: rgb(234, 88, 12);
+}
+
+
+.details-container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-family: ui-sans-serif, system-ui;
+    font-weight: 500;
+    color: white;
+    margin-block: 10px;
+    width: 140px;
+    height: 40px;
+    background-color:rgb(234,88,12);
+    border: none;
+    border-radius: 6px;
+}
+
+.details-container button:hover{
+    background-color: rgb(155, 69, 23);
+    cursor: pointer;
+}
+
+
+.material-symbols-outlined{
+    font-size: 18px;
+}
+
+#save-btn{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-family: ui-sans-serif, system-ui;
+    font-weight: 500;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+}
+
+#save-btn:hover{
+    background-color: rgb(73, 73, 73);
+}
+
+.dashboard-container{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dashboard-cards{
+    display: flex;
+    gap: 20px;
+}
+
+.dashboard-cards .dashboard-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid gray;
+    width: 200px;
+    height: 100px;
+    padding-left: 20px;
+    gap: 6px;
+}
+
+.dashboard-card .material-symbols-outlined{
+    font-size: 24px;
+}
+
+.dashboard-card:hover{
+    cursor: pointer;
+}
+.button-row{
+    display: flex;
+    gap: 14px;
+}
+.recommended{
+
+}
+
+.my-clubs{
+
+}
+
+.personalize-card {
+    background: #fff8f1;
+    border-radius: 16px;
+    border: 1px solid #f97316;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+  }
+  
+  .personalize-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+  }
+  
+  .personalize-header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .personalize-header p {
+    margin: 4px 0 0;
+    font-size: 0.9rem;
+    color: #4b5563;
+  }
+  
+  .personalize-close {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .personalize-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0 16px;
+  }
+  
+  .interest-chip {
+    padding: 6px 12px;
+    border-radius: 9999px;
+    border: 1px solid #d1d5db;
+    background: white;
+    font-size: 0.85rem;
+    cursor: pointer;
+  }
+  
+  .interest-chip-active {
+    background: #2563eb;
+    color: white;
+    border-color: #2563eb;
+  }
+  
+  .personalize-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+  
+  .btn-ghost {
+    padding: 6px 12px;
+    border-radius: 9999px;
+    border: 1px solid #d1d5db;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    padding: 6px 14px;
+    border-radius: 9999px;
+    border: none;
+    background: #f97316;
+    color: white;
+    cursor: pointer;
+  }
+  
+
+  .recommended-section {
+    margin-top: 24px;
+    padding: 16px 20px;
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .recommended-section h2 {
+    margin: 0 0 4px;
+  }
+  
+  .recommended-subtitle {
+    margin: 0 0 16px;
+    font-size: 0.9rem;
+    color: #6b7280;
+  }
+  
+  .recommended-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+  }
+  
+  .recommended-column h3 {
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+  
+  .recommended-empty {
+    font-size: 0.85rem;
+    color: #9ca3af;
+  }
+  
+  .recommended-section {
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: 16px;
+    background: #fff;
+  }
+  
+  .recommended-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .recommended-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+
+  .newsfeed-section {
+    margin-top: 2rem;
+  }
+  
+  .newsfeed-section h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Card grid */
+  .news-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  /* Individual news card */
+  .news-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
+    border: 1px solid #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  /* Header row: pill + date */
+  .news-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.25rem;
+  }
+  
+  .news-pill {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    background: #eef2ff;
+    color: #4338ca;
+    font-weight: 500;
+  }
+  
+  .news-date {
+    font-size: 0.75rem;
+    color: #6b7280;
+  }
+  
+  .news-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.1rem 0 0.2rem;
+  }
+  
+  .news-summary {
+    font-size: 0.9rem;
+    color: #4b5563;
+  }
+  
+  /* Tags inside card */
+  .news-tags {
+    margin-top: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+  
+  .news-tag-chip {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: #4b5563;
+  }
+  
+  .news-empty {
+    font-size: 0.9rem;
+    color: #6b7280;
+  }
+
+  /* --- Newsletter Card Container --- */
+.news-pref-card {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+  }
+  
+  /* --- Header Layout --- */
+  .news-pref-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .news-pref-header h2 {
+    margin: 0;
+    font-size: 1.4rem;
+  }
+  
+  .news-pref-header p {
+    margin: 0.3rem 0 0;
+    color: #6b7280;
+    font-size: 0.9rem;
+  }
+  
+  /* --- Better Clear Button --- */
+  .btn-ghost {
+    padding: 0.35rem 0.9rem;
+    border-radius: 999px;
+    border: 1px solid #d1d5db;
+    background: white;
+    font-size: 0.85rem;
+    color: #4b5563;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .btn-ghost:hover {
+    background: #f3f4f6;
+    border-color: #9ca3af;
+    color: #1f2937;
+  }
+  
+  /* --- Row of Filter Chips --- */
+  .news-pref-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  /* Smooth chip hover effect */
+  .interest-chip {
+    padding: 0.35rem 0.95rem;
+    border-radius: 999px;
+    border: 1px solid #e5e7eb;
+    background: #f9fafb;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .interest-chip:hover {
+    background: #e5edff;
+    border-color: #c7d2fe;
+  }
+  
+  .interest-chip-active {
+    background: #2563eb;
+    color: white;
+    border-color: #1d4ed8;
+  }
+
+  /* --- Newsfeed Items --- */
+
+.news-item {
+    padding: 1rem 1.2rem;
+    border-bottom: 1px solid #e5e7eb;
+    line-height: 1.5;
+  }
+  
+  .news-item-date {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-bottom: 0.2rem;
+  }
+  
+  .news-item-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+  }
+  
+  .news-item-summary {
+    color: #4b5563;
+    margin-bottom: 0.5rem;
+  }
+  
+>>>>>>> c43081b5a69720c7350bf77c5f4c4ecef1760369
