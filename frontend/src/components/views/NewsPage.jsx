@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import NewsPreferences from "../sections/NewsPreferences";
 import NewsFeed from "../sections/NewsFeed";
-import "../views/Homepage.css";   // or a new CSS if you prefer
+import "../views/Homepage.css"; // or a new CSS if you prefer
 
 const LS_NEWS_FILTERS_KEY = "campushub_news_filters";
 
@@ -14,6 +14,8 @@ export default function NewsPage() {
     "Wellness",
     "Academics",
     "Volunteering",
+    "Business-Society",
+    "DJ",
   ];
 
   const [selectedNewsFilters, setSelectedNewsFilters] = useState([]);
