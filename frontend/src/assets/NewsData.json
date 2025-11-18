@@ -1,83 +1,98 @@
 [
-    {
-      "id": "news_1",
-      "title": "Campus Hackathon Registration Opens",
-      "summary": "Sign up now for the 24-hour innovation hackathon organised by the Innovation Society.",
+  {
+    "id": "news_1",
+    "title": "Campus Hackathon Registration Opens",
+    "summary": "Sign up now for the 24-hour innovation hackathon organised by the Innovation Society.",
 
-      "date": "2026-03-01",
+    "date": "2026-03-01",
 
-      "type": "events",
-      "tags": ["tech", "hackathon", "competition", "coding", "events"]
-    },
-    {
-      "id": "news_2",
-      "title": "New Data Science Internship Posted",
+    "type": "events",
+    "tags": ["tech", "hackathon", "competition", "coding", "events"]
+  },
+  {
+    "id": "news_2",
+    "title": "New Data Science Internship Posted",
 
-      "summary": "Insight Analytics is hiring a Data Science intern for Summer 2026.",
-      "date": "2026-03-05",
+    "summary": "Insight Analytics is hiring a Data Science intern for Summer 2026.",
+    "date": "2026-03-05",
 
-      "type": "internships",
-      "tags": ["tech", "data", "AI", "machine learning", "internships"]
-    },
-    {
-      "id": "news_3",
-      "title": "Robotics Society Wins Regional Competition",
-      "summary": "The Robotics Society took 1st place at the regional robotics challenge last weekend.",
+    "type": "internships",
+    "tags": ["tech", "data", "AI", "machine learning", "internships"]
+  },
+  {
+    "id": "news_3",
+    "title": "Robotics Society Wins Regional Competition",
+    "summary": "The Robotics Society took 1st place at the regional robotics challenge last weekend.",
 
-      "date": "2026-02-26",
+    "date": "2026-02-26",
 
-      "type": "clubs",
-      "tags": ["robotics", "engineering", "clubs", "achievement"]
-    },
-    {
-      "id": "news_4",
-      "title": "Mental Health Awareness Week Announced",
-      "summary": "The Student Wellness Committee is launching a week of talks, workshops, and pop-up relaxation spaces.",
+    "type": "clubs",
+    "tags": ["robotics", "engineering", "clubs", "achievement"]
+  },
+  {
+    "id": "news_4",
+    "title": "Mental Health Awareness Week Announced",
+    "summary": "The Student Wellness Committee is launching a week of talks, workshops, and pop-up relaxation spaces.",
 
-      "date": "2026-03-10",
+    "date": "2026-03-10",
 
-      "type": "wellness",
-      "tags": ["wellness", "mental health", "events", "campus"]
-    },
-    {
-      "id": "news_5",
-      "title": "Photography Exhibition Call for Submissions",
-      "summary": "The Photography Club is accepting student submissions for the Spring exhibition.",
+    "type": "wellness",
+    "tags": ["wellness", "mental health", "events", "campus"]
+  },
+  {
+    "id": "news_5",
+    "title": "Photography Exhibition Call for Submissions",
+    "summary": "The Photography Club is accepting student submissions for the Spring exhibition.",
 
-      "date": "2026-03-08",
+    "date": "2026-03-08",
 
-      "type": "clubs",
-      "tags": ["photography", "arts", "clubs", "opportunities"]
-    },
-    {
-      "id": "news_6",
-      "title": "Scholarship Applications Now Open",
+    "type": "clubs",
+    "tags": ["photography", "arts", "clubs", "opportunities"]
+  },
+  {
+    "id": "news_6",
+    "title": "Scholarship Applications Now Open",
 
-      "summary": "Academic Affairs has opened applications for merit-based and need-based scholarships for AY2026/26.",
-      "date": "2026-03-03",
+    "summary": "Academic Affairs has opened applications for merit-based and need-based scholarships for AY2026/26.",
+    "date": "2026-03-03",
 
-      "type": "academics",
-      "tags": ["scholarships", "academics", "deadlines"]
-    },
-    {
-      "id": "news_7",
-      "title": "Women in STEM Panel: Registration Reminder",
-      "summary": "Don’t forget to register for the Women in STEM panel featuring industry leaders and alumni.",
+    "type": "academics",
+    "tags": ["scholarships", "academics", "deadlines"]
+  },
+  {
+    "id": "news_7",
+    "title": "Women in STEM Panel: Registration Reminder",
+    "summary": "Don’t forget to register for the Women in STEM panel featuring industry leaders and alumni.",
 
-      "date": "2026-03-12",
+    "date": "2026-03-12",
 
-      "type": "events",
-      "tags": ["STEM", "diversity", "events", "education"]
-    },
-    {
-      "id": "news_8",
-      "title": "Community Tutoring Programme Needs Volunteers",
-      "summary": "Future Scholars Foundation is recruiting volunteers for weekend tutoring sessions.",
+    "type": "events",
+    "tags": ["STEM", "diversity", "events", "education"]
+  },
+  {
+    "id": "news_8",
+    "title": "Community Tutoring Programme Needs Volunteers",
+    "summary": "Future Scholars Foundation is recruiting volunteers for weekend tutoring sessions.",
 
-      "date": "2026-03-06",
+    "date": "2026-03-06",
 
-      "type": "volunteering",
-      "tags": ["community", "teaching", "volunteering", "service"]
-    }
-  ]
-  
+    "type": "volunteering",
+    "tags": ["community", "teaching", "volunteering", "service"]
+  },
+  {
+    "id": "news_9",
+    "title": "Student DJ Battle Competition - Sign Up Now",
+    "summary": "Campus Music Society is hosting an epic DJ battle where students compete for the title of Best Campus DJ and a chance to perform at Spring Fest.",
+    "date": "2026-03-12",
+    "type": "competition",
+    "tags": ["DJ", "music", "competition", "performance"]
+  },
+  {
+    "id": "news_10",
+    "title": "Business Society Hosts Fortune 500 CEO Panel",
+    "summary": "Join us for an exclusive networking session with CEOs from leading Fortune 500 companies sharing insights on leadership, innovation, and career development in the corporate world.",
+    "date": "2026-03-15",
+    "type": "networking",
+    "tags": ["Business-Society", "networking", "career", "leadership"]
+  }
+]
