@@ -15,10 +15,7 @@ import MyEvents from "./components/views/MyEvents";
 import MyClubs from "./components/views/MyClubs";
 import MyInternships from "./components/views/MyInternships";
 import NewsDetail from "./components/views/NewsDetail";
-
-// ✅ Chatbot
-import Chatbot from "./components/Chatbot/Chatbot";
-
+import ChatBot from "./components/chatbot/Chatbot";
 
 export default function App() {
   const [appliedInternships, setAppliedInternships] = useState([]);
@@ -67,7 +64,7 @@ export default function App() {
       <div className="hub-container">
         <RightSideBar />
 
-                <Routes>
+        <Routes>
           {/* main branch paths */}
           <Route
             path="/RegisteredEvents"
@@ -133,9 +130,8 @@ export default function App() {
           <Route path="/news/:id" element={<NewsDetail />} />
         </Routes>
 
-
         {/* ✅ Chatbot appears on all pages */}
-        <Chatbot />
+        <ChatBot />
       </div>
     </>
   );

@@ -1,4 +1,3 @@
-// src/components/chatbot/ChatBot.jsx
 import { useState } from "react";
 import { mockUser } from "../../data/events";
 
@@ -6,11 +5,14 @@ export default function ChatBot() {
   const [isOpen, setIsOpen] = useState(false);
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([
-    { from: "bot", text: `Hi ${mockUser.name}! I’ll show you event updates here.` }
+    {
+      from: "bot",
+      text: `Hi ${mockUser.name}! I’ll show you event updates here.`,
+    },
   ]);
 
   function toggleOpen() {
-    setIsOpen(prev => !prev);
+    setIsOpen((prev) => !prev);
   }
 
   async function handleSend(e) {
@@ -19,7 +21,7 @@ export default function ChatBot() {
 
     const userMsg = { from: "user", text: input };
 
-    setMessages(prev => [...prev, userMsg, { from: "bot", text: "..." }]);
+    setMessages((prev) => [...prev, userMsg, { from: "bot", text: "..." }]);
     const userInput = input;
     setInput("");
 
@@ -29,8 +31,8 @@ export default function ChatBot() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           message: userInput,
-          interests: mockUser.interests
-        })
+          interests: mockUser.interests,
+        }),
       });
 
       if (!res.ok) {
@@ -39,15 +41,15 @@ export default function ChatBot() {
 
       const data = await res.json(); // { reply, recommendedEventIds }
 
-      setMessages(prev => [
-        ...prev.filter(m => m.text !== "..."),
-        { from: "bot", text: data.reply }
+      setMessages((prev) => [
+        ...prev.filter((m) => m.text !== "..."),
+        { from: "bot", text: data.reply },
       ]);
     } catch (err) {
       console.error("Chat API error:", err);
-      setMessages(prev => [
-        ...prev.filter(m => m.text !== "Thinking..."),
-        { from: "bot", text: "Sorry, I had a problem talking to the server." }
+      setMessages((prev) => [
+        ...prev.filter((m) => m.text !== "Thinking..."),
+        { from: "bot", text: "Sorry, I had a problem talking to the server." },
       ]);
     }
   }
@@ -102,7 +104,7 @@ export default function ChatBot() {
           <form className="chatbot-input-row" onSubmit={handleSend}>
             <input
               value={input}
-              onChange={e => setInput(e.target.value)}
+              onChange={(e) => setInput(e.target.value)}
               placeholder="Ask about events..."
             />
             <button type="submit">Send</button>
