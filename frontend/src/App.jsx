@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import HomePage from "./components/views/HomePage";
 import EventPage from "./components/views/EventPage";
 import NewsPage from "./components/views/NewsPage";
@@ -66,6 +66,7 @@ export default function App() {
 
         <Routes>
           {/* main branch paths */}
+          <Route path="/" element={<Navigate to="/home" replace />} />
           <Route
             path="/RegisteredEvents"
             element={<MyEvents registeredEvents={registeredEvents} />}
