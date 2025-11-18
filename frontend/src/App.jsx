@@ -15,7 +15,7 @@ import MyEvents from "./components/views/MyEvents";
 import MyClubs from "./components/views/MyClubs";
 import MyInternships from "./components/views/MyInternships";
 import NewsDetail from "./components/views/NewsDetail";
-import ChatBot from "./components/chatbot/Chatbot";
+import ChatBot from "./components/Chatbot/Chatbot";
 
 export default function App() {
   const [appliedInternships, setAppliedInternships] = useState([]);
