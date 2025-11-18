@@ -31,7 +31,7 @@ function filterByInterests(items, selectedInterests, limit = 4) {
     .map((x) => x.item);
 
   if (scored.length === 0) {
-    return items.slice(0, limit);
+    return [];
   }
 
   return scored.slice(0, limit);
