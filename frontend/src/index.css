@@ -5,7 +5,7 @@
 
 .grid-container {
   flex-grow: 1;
-  margin-inline: 240px;
+  margin-left: 240px;
 }
 
 .right-side-bar {

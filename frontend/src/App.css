@@ -42,13 +42,24 @@
   color: #888;
 }
 
-
 /* Floating chat button */
 .chatbot-fab {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 1000;
+  z-index: 9999;
+  background: rgb(234, 88, 12);
+  color: white;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.chatbot-fab:hover {
+  transform: scale(1.2);
 }
 
 /* Chat panel */
@@ -60,7 +71,6 @@
   max-height: 480px;
   display: flex;
   flex-direction: column;
-
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 18px 45px rgba(0, 0, 0, 0.25);
@@ -73,7 +83,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.75rem 1rem;
-  background: #2563eb;
+  background: rgb(234, 88, 12);
   color: white;
   font-weight: 600;
 }
@@ -100,7 +110,7 @@
 
 .chatbot-msg-user {
   align-self: flex-end;
-  background: #2563eb;
+  background: rgb(234, 88, 12);
   color: white;
 }
 
@@ -123,7 +133,7 @@
   padding: 0 0.9rem;
   border-radius: 9999px;
   border: none;
-  background: #2563eb;
+  background: rgb(234, 88, 12);
   color: white;
   font-size: 0.875rem;
   cursor: pointer;

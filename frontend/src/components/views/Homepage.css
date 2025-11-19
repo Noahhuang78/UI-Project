@@ -245,7 +245,7 @@
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  margin-inline: 300px;
+  margin-left: 300px;
 }
 
 .details-container img {
@@ -1036,4 +1036,5 @@
       font-size: 0.85rem;
       color: #374151;
     }
+
   }    

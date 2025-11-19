@@ -43,8 +43,6 @@
     height: 400px;
   }
 
- 
-
   .event-card:hover {
     transform: none; /* Disable hover transform on mobile */
   }
@@ -216,7 +214,7 @@
 
   /* Icon styles - add icons before text */
   .right-side-bar ul a::before {
-    content: '';
+    content: "";
     display: block;
     width: 24px;
     height: 24px;
@@ -225,18 +223,32 @@
 
   /* You can replace these with actual icon classes or SVGs */
   .right-side-bar ul a[href*="home"]::before {
-    content: '🏠';
+    content: "🏠";
   }
 
   .right-side-bar ul a[href*="internships"]::before {
-    content: '💼';
+    content: "💼";
   }
 
   .right-side-bar ul a[href*="clubs"]::before {
-    content: '👥';
+    content: "👥";
   }
 
   .right-side-bar ul a[href*="events"]::before {
-    content: '📅';
+    content: "📅";
+  }
+  .right-side-bar ul a[href*="news"]::before {
+    content: "📩";
+  }
+  
+
+  @media (max-width: 768px) {
+    .chatbot-fab {
+      bottom: 110px;
+    }
+
+    .chatbot-panel {
+      bottom: 180px;
+    }
   }
 }
