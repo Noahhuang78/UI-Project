@@ -28,15 +28,15 @@ export default function RegisterButton({
 
     setRegisteredEvents((prev) => [...prev, event]);
 
-    try {
-      await fetch("http://localhost:8000/myevents", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(event),
-      });
-    } catch (e) {
-      console.error(`failed to register: ${e}`);
-    }
+    // try {
+    //   await fetch("http://localhost:8000/myevents", {
+    //     method: "POST",
+    //     headers: { "Content-Type": "application/json" },
+    //     body: JSON.stringify(event),
+    //   });
+    // } catch (e) {
+    //   console.error(`failed to register: ${e}`);
+    // }
 
     setShowSuccess(true);
   };
