@@ -31,7 +31,7 @@ export const events = [
   
   // Simulated logged-in user + their interests
   export const mockUser = {
-    name: "Manishansh",
+    name: "Luvin",
     interests: ["Tech", "Music"] // this is what we’ll feed to the AI
   };
   

@@ -6,7 +6,7 @@ export default function Dashboard({ joinedClubs, registeredEvents, savedInternsh
  
   return (
     <div className="dashboard-container">
-      <h1>Welcome back, Name</h1>
+      <h1>Welcome back, Luvin!</h1>
       <p>Your gateway to campus activities, clubs, and opportunities.</p>
 
       <div className="dashboard-cards">
