@@ -61,7 +61,7 @@ export default function ClubDetails({ joinedClubs, setJoinedClubs }) {
         </div>
 
         <div className="company-info">
-          <h3>Company Information</h3>
+          <h3>Information</h3>
           <div className="info-wrapper">
             <div className="info-item">
               <span className="material-symbols-outlined">calendar_today</span>
