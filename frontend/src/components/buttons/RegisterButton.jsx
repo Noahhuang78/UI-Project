@@ -7,25 +7,27 @@ export default function RegisterButton({
   setRegisteredEvents,
   isRegistered,
 }) {
-  const [showModal, setShowModal] = useState(false);
+  const [showModal, setShowModal] = useState(false); 
+  const [showSuccess, setShowSuccess] = useState(false);
 
   const handleClick = () => {
     if (isRegistered) {
-      alert("you have already registered for this event");
+      alert("You have already registered for this event");
       return;
     }
-    // 1. Open Google form
+
     window.open(
       "https://docs.google.com/forms/d/e/1FAIpQLSd1U2JKM5xornzoShJ9pI7mLpkS65YPXI4aL8sDkYj1v4dr2w/viewform?usp=dialog"
     );
 
-    // 2. Show modal
     setShowModal(true);
   };
 
   const handleYes = async () => {
     setShowModal(false);
+
     setRegisteredEvents((prev) => [...prev, event]);
+
     try {
       await fetch("http://localhost:8000/myevents", {
         method: "POST",
@@ -35,26 +37,40 @@ export default function RegisterButton({
     } catch (e) {
       console.error(`failed to register: ${e}`);
     }
-    // ⚠️ Here is where you call your backend if needed
+
+    setShowSuccess(true);
   };
 
   const handleNo = () => {
     setShowModal(false);
   };
 
+  // All 3 buttons in success popup just close for now — you can add real logic later
+  const handleAdd = () => {
+    setShowSuccess(false);
+  };
+
+  const handleSkip = () => {
+    setShowSuccess(false);
+  };
+
+  const handleRemindLater = () => {
+    setShowSuccess(false);
+  };
+
   return (
     <div>
-      {/* APPLY BUTTON */}
+      {/* REGISTER BUTTON */}
       <button onClick={handleClick}>
         <span className="material-symbols-outlined">{icon}</span>
         {text}
       </button>
 
-      {/* MODAL */}
+      {/* POPUP 1 — Have you registered? */}
       {showModal && (
         <div style={styles.backdrop}>
           <div style={styles.modal}>
-            <p>Have you Registered?</p>
+            <p>Have you registered via the form?</p>
 
             <button style={styles.yes} onClick={handleYes}>
               Yes
@@ -62,6 +78,28 @@ export default function RegisterButton({
 
             <button style={styles.no} onClick={handleNo}>
               No
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* POPUP 2 — Add to Calendar */}
+      {showSuccess && (
+        <div style={styles.backdrop}>
+          <div style={styles.modal}>
+            <h3>Registration Successful!</h3>
+            <p>Add to your calendar?</p>
+
+            <button style={styles.yes} onClick={handleAdd}>
+              Yes, add
+            </button>
+
+            <button style={styles.no} onClick={handleSkip}>
+              No
+            </button>
+
+            <button style={styles.later} onClick={handleRemindLater}>
+              Remind me later
             </button>
           </div>
         </div>
@@ -81,31 +119,43 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    zIndex: 999,
   },
   modal: {
     background: "white",
     padding: "20px",
     borderRadius: "10px",
     textAlign: "center",
-    minWidth: "250px",
+    minWidth: "260px",
   },
   yes: {
     width: "90%",
-    marginBlock: "20px",
-    marginInline: "10px",
-    padding: "8px 16px",
+    marginBlock: "12px",
+    padding: "10px",
     background: "green",
     color: "white",
     border: "none",
     borderRadius: "5px",
+    cursor: "pointer",
   },
   no: {
     width: "90%",
-    margin: "10px",
-    padding: "8px 16px",
+    marginBlock: "12px",
+    padding: "10px",
     background: "red",
     color: "white",
     border: "none",
     borderRadius: "5px",
+    cursor: "pointer",
+  },
+  later: {
+    width: "90%",
+    marginBlock: "12px",
+    padding: "10px",
+    background: "#888",
+    color: "white",
+    border: "none",
+    borderRadius: "5px",
+    cursor: "pointer",
   },
 };
