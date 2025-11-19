@@ -47,6 +47,7 @@ export default function RegisterButton({
 
   // All 3 buttons in success popup just close for now — you can add real logic later
   const handleAdd = () => {
+    window.open("https://calendar.google.com/calendar")
     setShowSuccess(false);
   };
 
