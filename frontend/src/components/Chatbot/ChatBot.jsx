@@ -6,7 +6,7 @@ export default function ChatBot() {
   const [isOpen, setIsOpen] = useState(false);
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([
-    { from: "bot", text: `Hi ${mockUser.name}! I’ll show you event updates here.` }
+    { from: "bot", text: `Hi! I’ll show you event updates here.` }
   ]);
 
   function toggleOpen() {

@@ -1,3 +1,4 @@
+//App.jsx
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./components/views/HomePage";
@@ -17,7 +18,7 @@ import MyInternships from "./components/views/MyInternships";
 import NewsDetail from "./components/views/NewsDetail";
 
 // ✅ Chatbot
-import Chatbot from "./components/chatbot/Chatbot";
+import ChatBot from "./components/Chatbot/Chatbot";
 
 
 export default function App() {
@@ -135,7 +136,7 @@ export default function App() {
 
 
         {/* ✅ Chatbot appears on all pages */}
-        <Chatbot />
+        <ChatBot />
       </div>
     </>
   );
